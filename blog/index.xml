@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>G.H. Beckett&#39;s blog</title>
-    <link>https://guusbeckett.github.io/</link>
+    <link>https://guusbeckett.github.io/blog/</link>
     <description>Recent content on G.H. Beckett&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Mon, 09 Dec 2019 21:30:56 +0100</lastBuildDate>
     
-	<atom:link href="https://guusbeckett.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://guusbeckett.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Static websites are cool</title>
-      <link>https://guusbeckett.github.io/posts/my-first-post/</link>
+      <link>https://guusbeckett.github.io/blog/posts/my-first-post/</link>
       <pubDate>Mon, 09 Dec 2019 21:30:56 +0100</pubDate>
       
-      <guid>https://guusbeckett.github.io/posts/my-first-post/</guid>
+      <guid>https://guusbeckett.github.io/blog/posts/my-first-post/</guid>
       <description>Hello world! Using Hugo to host my static blog Hello everyone (probably no-one),
 This will most likely be my blog, or at least a place where I can write down the many brainstorms I have whilst drifing away in my own mind&amp;hellip; Most fittingly I&#39;d like to write something about this tool I&#39;m using right now. Although I&#39;ve been a software developer since 2012; I haven&#39;t touched web development since secondary school.</description>
     </item>
