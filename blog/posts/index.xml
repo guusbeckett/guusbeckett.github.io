@@ -12,13 +12,12 @@
     
     
     <item>
-      <title>Static websites are cool</title>
+      <title>Static websites are cool (and a brief introduction)</title>
       <link>https://guusbeckett.github.io/blog/posts/my-first-post/</link>
       <pubDate>Mon, 09 Dec 2019 21:30:56 +0100</pubDate>
       
       <guid>https://guusbeckett.github.io/blog/posts/my-first-post/</guid>
-      <description>Static websites are cool Using Hugo to host my static blog Hello {every,no-}one,
-Writing the first entry for every blog is much more difficult than I first thought (having to rewrite this first sentence for the tenth time proves this to me). With an audience consisting of literally just one person, yourself, it&#39;s a bit like shouting into the void. Whilst it can clear your head, allowing you to put your thoughts in order, the notice of nobody hearing what you said makes it a bit sad.</description>
+      <description>Hello {every,no-}one, Writing the first entry for every blog is much more difficult than I first thought (having to rewrite this first sentence for the tenth time proves this to me). With an audience consisting of literally just one person, yourself, it&#39;s a bit like shouting into the void. Whilst it can clear your head, allowing you to put your thoughts in order, the notice of nobody hearing what you said makes it a bit sad.</description>
     </item>
     
   </channel>
