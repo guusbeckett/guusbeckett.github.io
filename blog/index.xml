@@ -6,18 +6,14 @@
     <description>Recent content on G.H. Beckett&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 09 Dec 2019 21:30:56 +0100</lastBuildDate>
-    
-	<atom:link href="https://guusbeckett.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 09 Dec 2019 21:30:56 +0100</lastBuildDate><atom:link href="https://guusbeckett.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Static websites are cool (and a brief introduction)</title>
+      <title>An awkward and brief introduction</title>
       <link>https://guusbeckett.github.io/blog/posts/my-first-post/</link>
       <pubDate>Mon, 09 Dec 2019 21:30:56 +0100</pubDate>
       
       <guid>https://guusbeckett.github.io/blog/posts/my-first-post/</guid>
-      <description>Hello {every,no-}one, Writing the first entry for every blog is much more difficult than I first thought (having to rewrite this first sentence for the tenth time proves this to me). With an audience consisting of literally just one person, yourself, it&#39;s a bit like shouting into the void. Whilst it can clear your head, allowing you to put your thoughts in order, the notice of nobody hearing what you said makes it a bit sad.</description>
+      <description>Hello {every,no-}one, Writing the first entry for every blog is much more difficult than I first thought (having to rewrite this first sentence for the tenth time proves this to me). With an audience consisting of literally just one person, yourself, it&amp;rsquo;s a bit like shouting into the void. Whilst it can clear your head, allowing you to put your thoughts in order, the notice of nobody hearing what you said makes it a bit sad.</description>
     </item>
     
   </channel>
