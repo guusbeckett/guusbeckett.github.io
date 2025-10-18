@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Trein Configuration</title>
+  <style>
+    /* Default (Light Mode) Styles */
+    body {
+      font-family: sans-serif;
+      padding: 10px;
+      background-color: #fff;
+      color: #000;
+    }
+
+    a {
+      color: #0000EE;
+    }
+
+    .item {
+      margin-bottom: 15px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    input {
+      width: 95%;
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      background-color: #fff;
+      color: #000;
+    }
+
+    button {
+      padding: 10px;
+      border: 0;
+      background: #000;
+      color: #fff;
+      border-radius: 3px;
+    }
+
+    /* Dark Mode Styles */
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: #121212;
+        color: #eee;
+      }
+
+      a {
+        color: #bb86fc;
+      }
+
+      input {
+        background-color: #333;
+        color: #eee;
+        border-color: #555;
+      }
+
+      button {
+        background: #bb86fc;
+        color: #121212;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Trein Configuration</h1>
+  You can register here to request a free API key: <a href="https://apiportal.ns.nl"> apiportal.ns.nl </a>
+  <br><br>
+  <div class="item">
+    <label for="api_key_input">NS API Key</label>
+    <input type="text" id="api_key_input" placeholder="Enter your personal API key">
+  </div>
+  <button id="save_button">Save</button>
+
+  <script>
+    function getUrlParams() {
+      var params = {};
+      var parts = window.location.search.substring(1).split('&');
+      for (var i = 0; i < parts.length; i++) {
+        var nv = parts[i].split('=');
+        if (!nv[0]) continue;
+        params[nv[0]] = nv[1] || true;
+      }
+      return params;
+    }
+
+    // When the page loads, populate the form with the current settings
+    document.addEventListener('DOMContentLoaded', function() {
+      var params = getUrlParams();
+      if (params.api_key) {
+        document.getElementById('api_key_input').value = decodeURIComponent(params.api_key);
+      }
+    });
+
+    // When the save button is clicked, send the settings back to the watch
+    document.getElementById('save_button').addEventListener('click', function() {
+      var apiKey = document.getElementById('api_key_input').value;
+      
+      var settings = {
+        'api_key': apiKey
+      };
+      
+      // The pebblejs://close# URL is the magic that sends the data back
+      var location = 'pebblejs://close#' + encodeURIComponent(JSON.stringify(settings));
+      document.location = location;
+    });
+  </script>
+</body>
+</html>
